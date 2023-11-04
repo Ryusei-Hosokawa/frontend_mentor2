@@ -1,1 +1,103 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+@font-face {
+  font-family: "BigShouldersDisplay"; /* フォント名 */
+  src: url("../fonts/BigShouldersDisplay-VariableFont_wght.ttf") format("woff");
+}
+@font-face {
+  font-family: "LexendDeca"; /* フォント名 */
+  src: url("../fonts/LexendDeca-VariableFont_wght.ttf") format("woff");
+}
+.base {
+  width: 100%;
+  max-width: 1440px;
+  padding: 171px 15px 129px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  background: #ebeaea;
+}
+
+.object__cover {
+  width: 100%;
+  max-width: 920px;
+  display: flex;
+  border-radius: 8px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 950px) {
+  .object__cover {
+    max-width: 600px;
+    flex-direction: column;
+  }
+}
+.object__card {
+  font-family: "LexendDeca";
+  width: 33.3333333333%;
+  padding: 47.5px;
+}
+@media screen and (max-width: 950px) {
+  .object__card {
+    width: 100%;
+  }
+}
+.object__card.card__01 {
+  background: #E28625;
+}
+.object__card.card__01 .learn__more {
+  color: #E28625;
+}
+.object__card.card__02 {
+  background: #006971;
+}
+.object__card.card__02 .learn__more {
+  color: #006971;
+}
+.object__card.card__03 {
+  background: #004140;
+}
+.object__card.card__03 .learn__more {
+  color: #004140;
+}
+.object__card .img__cover {
+  width: 100%;
+  max-width: 64px;
+  padding: 0 0 38px;
+}
+.object__card .item__ttl {
+  font-family: "BigShouldersDisplay";
+  font-size: 40px;
+  font-weight: 700;
+  color: #F2F2F2;
+  padding: 0 0 35px;
+}
+.object__card .item__txt {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 1.7em;
+  color: #F2F2F2;
+  padding: 0 0 83px;
+}
+.object__card .learn__more {
+  display: block;
+  width: 100%;
+  max-width: 146px;
+  height: 48px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1em;
+  background: #fff;
+  padding: 16px 0;
+  box-sizing: border-box;
+  transition: all 0.4s ease-out;
+}
+.object__card .learn__more:hover {
+  border: solid 1px #fff;
+  background: transparent;
+  color: #fff;
+  padding: 15px 0;
+}/*# sourceMappingURL=style.css.map */
